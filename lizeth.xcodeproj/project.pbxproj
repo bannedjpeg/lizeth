@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBBD79842B05803A0038EAEC /* lizethApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD79832B05803A0038EAEC /* lizethApp.swift */; };
+		FBBD79862B05803A0038EAEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD79852B05803A0038EAEC /* ContentView.swift */; };
+		FBBD79882B05803B0038EAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBD79872B05803B0038EAEC /* Assets.xcassets */; };
+		FBBD798B2B05803B0038EAEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBD798A2B05803B0038EAEC /* Preview Assets.xcassets */; };
+		FBBD79952B05803B0038EAEC /* lizethTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD79942B05803B0038EAEC /* lizethTests.swift */; };
+		FBBD799F2B05803B0038EAEC /* lizethUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD799E2B05803B0038EAEC /* lizethUITests.swift */; };
+		FBBD79A12B05803B0038EAEC /* lizethUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBD79A02B05803B0038EAEC /* lizethUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBBD79912B05803B0038EAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBD79782B05803A0038EAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBD797F2B05803A0038EAEC;
+			remoteInfo = lizeth;
+		};
+		FBBD799B2B05803B0038EAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBBD79782B05803A0038EAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBBD797F2B05803A0038EAEC;
+			remoteInfo = lizeth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBBD79802B05803A0038EAEC /* lizeth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lizeth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD79832B05803A0038EAEC /* lizethApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lizethApp.swift; sourceTree = "<group>"; };
+		FBBD79852B05803A0038EAEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBBD79872B05803B0038EAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBD798A2B05803B0038EAEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBBD79902B05803B0038EAEC /* lizethTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lizethTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD79942B05803B0038EAEC /* lizethTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lizethTests.swift; sourceTree = "<group>"; };
+		FBBD799A2B05803B0038EAEC /* lizethUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lizethUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD799E2B05803B0038EAEC /* lizethUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lizethUITests.swift; sourceTree = "<group>"; };
+		FBBD79A02B05803B0038EAEC /* lizethUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lizethUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBD797D2B05803A0038EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD798D2B05803B0038EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD79972B05803B0038EAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBD79772B05803A0038EAEC = {
+			isa = PBXGroup;
+			children = (
+				FBBD79822B05803A0038EAEC /* lizeth */,
+				FBBD79932B05803B0038EAEC /* lizethTests */,
+				FBBD799D2B05803B0038EAEC /* lizethUITests */,
+				FBBD79812B05803A0038EAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBD79812B05803A0038EAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD79802B05803A0038EAEC /* lizeth.app */,
+				FBBD79902B05803B0038EAEC /* lizethTests.xctest */,
+				FBBD799A2B05803B0038EAEC /* lizethUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBD79822B05803A0038EAEC /* lizeth */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD79832B05803A0038EAEC /* lizethApp.swift */,
+				FBBD79852B05803A0038EAEC /* ContentView.swift */,
+				FBBD79872B05803B0038EAEC /* Assets.xcassets */,
+				FBBD79892B05803B0038EAEC /* Preview Content */,
+			);
+			path = lizeth;
+			sourceTree = "<group>";
+		};
+		FBBD79892B05803B0038EAEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD798A2B05803B0038EAEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBBD79932B05803B0038EAEC /* lizethTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD79942B05803B0038EAEC /* lizethTests.swift */,
+			);
+			path = lizethTests;
+			sourceTree = "<group>";
+		};
+		FBBD799D2B05803B0038EAEC /* lizethUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD799E2B05803B0038EAEC /* lizethUITests.swift */,
+				FBBD79A02B05803B0038EAEC /* lizethUITestsLaunchTests.swift */,
+			);
+			path = lizethUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBD797F2B05803A0038EAEC /* lizeth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD79A42B05803B0038EAEC /* Build configuration list for PBXNativeTarget "lizeth" */;
+			buildPhases = (
+				FBBD797C2B05803A0038EAEC /* Sources */,
+				FBBD797D2B05803A0038EAEC /* Frameworks */,
+				FBBD797E2B05803A0038EAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lizeth;
+			productName = lizeth;
+			productReference = FBBD79802B05803A0038EAEC /* lizeth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBBD798F2B05803B0038EAEC /* lizethTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD79A72B05803B0038EAEC /* Build configuration list for PBXNativeTarget "lizethTests" */;
+			buildPhases = (
+				FBBD798C2B05803B0038EAEC /* Sources */,
+				FBBD798D2B05803B0038EAEC /* Frameworks */,
+				FBBD798E2B05803B0038EAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBD79922B05803B0038EAEC /* PBXTargetDependency */,
+			);
+			name = lizethTests;
+			productName = lizethTests;
+			productReference = FBBD79902B05803B0038EAEC /* lizethTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBBD79992B05803B0038EAEC /* lizethUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD79AA2B05803B0038EAEC /* Build configuration list for PBXNativeTarget "lizethUITests" */;
+			buildPhases = (
+				FBBD79962B05803B0038EAEC /* Sources */,
+				FBBD79972B05803B0038EAEC /* Frameworks */,
+				FBBD79982B05803B0038EAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBBD799C2B05803B0038EAEC /* PBXTargetDependency */,
+			);
+			name = lizethUITests;
+			productName = lizethUITests;
+			productReference = FBBD799A2B05803B0038EAEC /* lizethUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBD79782B05803A0038EAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FBBD797F2B05803A0038EAEC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FBBD798F2B05803B0038EAEC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FBBD797F2B05803A0038EAEC;
+					};
+					FBBD79992B05803B0038EAEC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FBBD797F2B05803A0038EAEC;
+					};
+				};
+			};
+			buildConfigurationList = FBBD797B2B05803A0038EAEC /* Build configuration list for PBXProject "lizeth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBD79772B05803A0038EAEC;
+			productRefGroup = FBBD79812B05803A0038EAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBD797F2B05803A0038EAEC /* lizeth */,
+				FBBD798F2B05803B0038EAEC /* lizethTests */,
+				FBBD79992B05803B0038EAEC /* lizethUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBD797E2B05803A0038EAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD798B2B05803B0038EAEC /* Preview Assets.xcassets in Resources */,
+				FBBD79882B05803B0038EAEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD798E2B05803B0038EAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD79982B05803B0038EAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBD797C2B05803A0038EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD79862B05803A0038EAEC /* ContentView.swift in Sources */,
+				FBBD79842B05803A0038EAEC /* lizethApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD798C2B05803B0038EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD79952B05803B0038EAEC /* lizethTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBD79962B05803B0038EAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD79A12B05803B0038EAEC /* lizethUITestsLaunchTests.swift in Sources */,
+				FBBD799F2B05803B0038EAEC /* lizethUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBBD79922B05803B0038EAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBD797F2B05803A0038EAEC /* lizeth */;
+			targetProxy = FBBD79912B05803B0038EAEC /* PBXContainerItemProxy */;
+		};
+		FBBD799C2B05803B0038EAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBBD797F2B05803A0038EAEC /* lizeth */;
+			targetProxy = FBBD799B2B05803B0038EAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBBD79A22B05803B0038EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBD79A32B05803B0038EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBD79A52B05803B0038EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lizeth/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DBTQ972GC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpeg360.lizeth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBBD79A62B05803B0038EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lizeth/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DBTQ972GC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpeg360.lizeth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBBD79A82B05803B0038EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DBTQ972GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpeg360.lizethTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lizeth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lizeth";
+			};
+			name = Debug;
+		};
+		FBBD79A92B05803B0038EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DBTQ972GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpeg360.lizethTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lizeth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lizeth";
+			};
+			name = Release;
+		};
+		FBBD79AB2B05803B0038EAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DBTQ972GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpeg360.lizethUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lizeth;
+			};
+			name = Debug;
+		};
+		FBBD79AC2B05803B0038EAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DBTQ972GC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jpeg360.lizethUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lizeth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBD797B2B05803A0038EAEC /* Build configuration list for PBXProject "lizeth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD79A22B05803B0038EAEC /* Debug */,
+				FBBD79A32B05803B0038EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD79A42B05803B0038EAEC /* Build configuration list for PBXNativeTarget "lizeth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD79A52B05803B0038EAEC /* Debug */,
+				FBBD79A62B05803B0038EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD79A72B05803B0038EAEC /* Build configuration list for PBXNativeTarget "lizethTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD79A82B05803B0038EAEC /* Debug */,
+				FBBD79A92B05803B0038EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD79AA2B05803B0038EAEC /* Build configuration list for PBXNativeTarget "lizethUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD79AB2B05803B0038EAEC /* Debug */,
+				FBBD79AC2B05803B0038EAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBD79782B05803A0038EAEC /* Project object */;
+}
